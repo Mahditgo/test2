@@ -1,0 +1,245 @@
+@import "reset.css";
+body {
+    direction: rtl  ;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+#header {
+
+}
+
+#header #logo img{
+    width: 90px;
+    margin-top: 20px;
+
+}
+
+#header .titles {
+    display: inline-block;
+    position: relative;
+    right: 110px;
+    bottom: 70px;
+    
+}
+
+#header .titles h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+#header .titles h2 {
+    font-size: 20px;
+}
+
+#header .users {
+    position: absolute;
+    left: 0;
+    top: 65px;
+    
+}
+
+#header .users .button{
+    padding: 10px 15px;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 3px;
+
+}
+
+#header .users .login   {
+    background-color: blue;
+}
+#header .users .login:hover {
+    background-color: rgb(30, 39, 94);
+}
+#header .users .register {
+    background-color: green;
+}
+
+#header .users .register:hover {
+    background-color: rgb(84, 134, 84);
+}
+    
+
+
+.clearfix {
+    clear: both;
+}
+
+#navigation {
+background-color: #263238;
+}
+
+#navigation ul li {
+    display: inline-block;
+}
+
+#navigation ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#navigation ul li a:hover {
+    background-color: #37474f;
+}
+
+#content {
+width: 810px;
+float: right;
+padding: 10px;
+box-sizing: border-box;
+margin-top: 1px;
+}
+
+.post-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.post-item:first-child {
+    margin-top: 0;
+}
+
+.post-item .image-item {
+    margin-right: 10px;
+    float: right;
+}
+
+.post-item .post-title {
+    font-weight: bold;
+    border-bottom: 3px dashed #ccc;
+    font-size: 27px;
+    padding: 15px;
+}
+.post-item .image-item img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.post-item .post-content {
+    padding: 8px;
+    line-height: 25px;
+    height: 223px;
+    overflow: hidden;
+    
+
+}
+
+.post-item .post-date   {
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    
+}
+
+.post-item .read-more {
+    position: absolute;
+    left: 5px;
+    bottom: 6px;
+    background-color: #212121;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.post-item .read-more:hover {
+    background-color: #000;
+}
+
+#sidebar {
+    width: 290px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar .sidebar-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    
+}
+
+#sidebar .sidebar-item .sidebar-cantent {
+    padding: 10px;
+}
+
+#sidebar .sidebar-item .sidebar-header {
+    background-color: #212121;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+}
+
+#sidebar .categories ul a {
+    text-decoration: none;
+    color: #212121;
+    margin-top: 10px;
+    display: inline-block;
+    border-right: 2px solid #212121;
+    padding-right: 5px;
+    transition: 0.25;
+}
+
+#sidebar .categories ul a:hover {
+    border-right: 4px solid #1565c0;
+    margin-right: 5px; 
+}
+
+#sidebar .newsletter {
+    text-align: center;
+}
+
+#sidebar .newsletter p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#sidebar .newsletter .input-email {
+    padding: 5px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#sidebar .newsletter .submit-btn {
+    background-color: green;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+#sidebar .newsletter .submit-btn:hover {
+    background-color: rgb(3, 51, 3);
+    cursor: pointer;
+}
+
+#footer {
+background-color: #212121;
+padding: 20px;
+margin-top: 20px;
+}
+
+#footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
